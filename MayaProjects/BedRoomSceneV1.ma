@@ -1,6 +1,6 @@
 //Maya ASCII 2025 scene
 //Name: BedRoomSceneV1.ma
-//Last modified: Sat, Mar 29, 2025 03:31:59 PM
+//Last modified: Sat, Mar 29, 2025 10:38:12 PM
 //Codeset: 1252
 requires maya "2025";
 requires -nodeType "aiOptions" -nodeType "aiAOVDriver" -nodeType "aiAOVFilter" -nodeType "aiImagerDenoiserOidn"
@@ -12,19 +12,19 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202404240506-c155a58772";
 fileInfo "osv" "Windows 11 Home v2009 (Build: 26100)";
-fileInfo "UUID" "41ABC6E4-4107-5661-F37B-E7B213DEBBF9";
+fileInfo "UUID" "87489899-47A3-4748-79CE-E3911A09D844";
 createNode transform -s -n "persp";
 	rename -uid "29241043-4417-90AC-FC90-74AF3ED8D964";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 11.358275405178142 7.5681888067766234 7.9373170634891759 ;
-	setAttr ".r" -type "double3" -23.264389682690545 52.599999999991198 -2.6182755992664284e-15 ;
+	setAttr ".t" -type "double3" 15.397301247833861 10.42372463209438 6.5292032815153549 ;
+	setAttr ".r" -type "double3" -29.264389682691171 63.3999999999971 3.5516361005814557e-15 ;
 	setAttr ".rp" -type "double3" 1.221245340322562e-15 -4.4408920985006262e-16 3.5527136788005009e-15 ;
 	setAttr ".rpt" -type "double3" 1.4793274119517215e-15 2.9785761721144394e-15 -1.8158283779751791e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "E8032AAE-4A4D-47F7-2774-2893F5023C30";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999979;
-	setAttr ".coi" 16.294301618968319;
+	setAttr ".coi" 20.823638970960069;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -2383,7 +2383,7 @@ createNode nodeGraphEditorInfo -n "hyperShadePrimaryNodeEditorSavedTabsInfo";
 	setAttr ".tgi[0].ni[6].y" -51.428569793701172;
 	setAttr ".tgi[0].ni[6].nvs" 1923;
 createNode mayaUsdLayerManager -n "mayaUsdLayerManager1";
-	rename -uid "59B786F7-4DFE-B281-B1DD-A8942D13D475";
+	rename -uid "A4E4C6C1-48C9-DD11-1772-5BAF63B3A88C";
 select -ne :time1;
 	setAttr ".o" 3;
 	setAttr ".unw" 3;
